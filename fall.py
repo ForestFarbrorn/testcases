@@ -13,16 +13,15 @@ class SmartHome():
     # Är belysningen av eller på
     def light_switch(self, state: int, room: str, floor: int):
         # state == 1 = ON, state == 2 = OFF
-        state == 1
-        room == 'bedroom'
-        floor == 2
+        new_light_switch_state = light_switch(state: 1, room: 'bedroom', floor: 2)
 
+        return new_light_switch_state
        # pass
 
     # Mood lighting profiler
     def mood_profile(self, room: str, floor: int, mood: str):
         
-        new_mood_profile = mood(room: 'bedroom', floor: 2, mood: 'Funky')
+        new_mood_profile = mood_profile(room: 'bedroom', floor: 2, mood: 'Funky')
 
         return new_mood_profile
        # pass
