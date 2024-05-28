@@ -13,7 +13,8 @@ def test_light_switch():
         assert isinstance(floor == 2)
         assert floor == 2
 
-def test_mood():
-    light_switch
+def test_mood_profile():
+    
+    assert isinstance()
 
 def test_scheduling():
