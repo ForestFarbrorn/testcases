@@ -25,6 +25,6 @@ def test_mood_profile(mocker):
 def test_scheduling(mocker):
       
         mock_scheduling = mocker.patch.object(SmartHome, 'scheduling')
-        get_schedule = new_schedule(room: 'bedroom', floor: 2, mood: 'Funky', time_am: 6, time_pm: 9)
+        get_schedule = new_schedule(room: 'bedroom', floor: 2, mood: 'Funky', time: 6, day: 'Wednesday')
 
         mock_instance.assert_called_once()

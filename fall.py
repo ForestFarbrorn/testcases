@@ -2,13 +2,13 @@ from pydantic import BaseModel
 
 # class for Smart home
 class SmartHome():
-    def __init__(self, state: int, room: str, floor: int, mood: str, time_am: int, time_pm: int) -> None:
+    def __init__(self, state: int, room: str, floor: int, mood: str, time: int, day: str) -> None:
         self.state = state
         self.room = room
         self.floor = floor
         self.mood = mood
-        self.time_am = time_am
-        self.time_pm = time_pm
+        self.time = time
+        self.day = day
 
     # Är belysningen av eller på
     def light_switch(self, state: int, room: str, floor: int):
@@ -27,9 +27,9 @@ class SmartHome():
        # pass
 
     # Schemaläggning av belysning
-    def scheduling(self, room: str, floor: int, mood: str, time_am: int, time_pm: int):
+    def scheduling(self, room: str, floor: int, mood: str, time: int, day: str):
 
-        new_schedule = schedule(room: 'bedroom', floor: 2, mood: 'Funky', time_am: 6, time_pm: 9)
+        new_schedule = schedule(room: 'bedroom', floor: 2, mood: 'Funky', time: 6, day: 'Wednesday')
 
         return new_schedule
        # pass
