@@ -6,14 +6,14 @@ def test_light_switch(mocker):
         mock_light_switch = mocker.patch.object(SmartHome, 'light_switch')
         get_light_switch = light_switch(state = 1)
         
-        assert isinstance(state = 1)
-        assert get_light_switch.light_switch(state = 1)
+        assert isinstance(new_light_switch_state, SmartHome)
+        assert get_light_switch.light_switch(state == 1)
 
-        assert isinstance(room == 'bedroom')
-        assert room == 'bedroom'
+        assert isinstance(new_light_switch_state, SmartHome)
+        assert get_light_switch.light_switch(room == 'bedroom')
 
-        assert isinstance(floor == 2)
-        assert floor == 2
+        assert isinstance(new_light_switch_state, SmartHome)
+        assert get_light_switch.light_switch(floor == 2)
 
 def test_mood_profile(mocker):
     
