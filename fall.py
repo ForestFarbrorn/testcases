@@ -10,15 +10,19 @@ class SmartHome():
 
     # Är belysningen av eller på
     def light_switch(self, state: int, room: str, floor: int):
-    
-        pass
+        # state == 1 = ON, state == 2 = OFF
+        state == 1
+        room == 'bedroom'
+        floor == 2
+
+       # pass
 
     # Mood lighting profiler
-    def mood(self, room: str, floor: int, mood: str):
+    def mood_profile(self, room: str, floor: int, mood: str):
 
-        pass
+       # pass
 
     # Schemaläggning av belysning
     def scheduling():
 
-        pass
+       # pass
