@@ -19,7 +19,7 @@ class SmartHome():
 
     # Mood lighting profiler
     def mood_profile(self, room: str, floor: int, mood: str):
-
+        
        # pass
 
     # Schemaläggning av belysning
