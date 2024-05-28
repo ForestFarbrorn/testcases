@@ -14,11 +14,11 @@ class SmartHome():
         pass
 
     # Mood lighting profiler
-    def Mood(self, room: str, floor: int, mood: str):
+    def mood(self, room: str, floor: int, mood: str):
 
         pass
-    
+
     # Schemaläggning av belysning
-    def Scheduling():
+    def scheduling():
 
         pass
