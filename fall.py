@@ -32,4 +32,5 @@ class SmartHome():
 
         new_schedule = schedule(room: 'bedroom', floor: 2, mood: 'Funky', time_am: 6, time_pm: 9)
 
+        return new_schedule
        # pass
